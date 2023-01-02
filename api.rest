@@ -1,0 +1,23 @@
+
+POST http://localhost:8080
+content-type: application/json
+
+{
+	"key": "post2",
+    "value": "this is a post2"
+}
+
+###
+
+GET http://localhost:8080
+content-type: application/json
+
+{
+	"key": "post-5"
+}
+
+###
+
+GET http://localhost:8080/posts/15
+
+###
